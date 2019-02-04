@@ -1,0 +1,10 @@
+https://swcarpentry.github.io/git-novice/
+
+## 
+git init
+git add its_script.sh
+git add README.md
+git commit -m "first commit"
+### Open a repository, skip README.md when open a new one
+##git remote add origin https://github.com/cocomushroom/dada2_R.git
+git push -u origin master
