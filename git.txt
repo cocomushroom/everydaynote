@@ -1,3 +1,4 @@
+https://www.atlassian.com/git/tutorials/syncing/git-pull
 https://swcarpentry.github.io/git-novice/
 
 ## 
@@ -8,3 +9,6 @@ git commit -m "first commit"
 ### Open a repository, skip README.md when open a new one
 ##git remote add origin https://github.com/cocomushroom/dada2_R.git
 git push -u origin master
+
+## Normally just do
+ git push -u origin master # after git commit
