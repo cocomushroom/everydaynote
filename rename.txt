@@ -1,0 +1,8 @@
+## rename multiple file names in a folder
+
+for f in `find . -name "*R1*fastq.gz"`; do mv "$f" $(echo "$f" | sed 's/\.fastq\.gz_trimmed\.fastq\.gz//g'); done
+
+for f in `find . -name "*R1*fastq.gz"`; do mv "$f" $(echo "$f" | sed 's/_B_/_/g'); done
+
+## test rename sometime but require installation
+
